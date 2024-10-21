@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Puma Sportswear</title>
+    <style>
+        /*Header Style*/
+        body {
+            margin: 0;
+            font-family: 'Arial', sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        /*Header*/
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px;
+            background-color: black;
+        }
+
+        header .logo img {
+            width: 120px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+
+        nav ul li {
+            display: inline;
+        }
+
+        nav ul li a {
+            color: white;
+        }
+
+        /* Hero Section */
+        .hero {
+            position: relative;
+            width: 200%;
+            height: 500px;
+            background-color: url('hero-image.jpg')no-repeat center center/cover;
+        }
+
+        .hero-text {
+            position: absolute;
+            top: 50%;
+            left: 10%;
+            transform: translateY(-50%);
+            color: black;
+            text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+        }
+
+        .hero-text h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+
+        .hero-text p {
+            font-size: 24px;
+        }
+
+        .hero-text .btn {
+            background-color: red;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        /* Product Section */
+        .products {
+            padding: 50px;
+            text-align: center;
+        }
+
+        .products h2 {
+            font-size: 36px;
+            margin-bottom: 30px;
+        }
+
+        .product-grid {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .product {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            width: 30%;
+            align-items: center;
+            
+        }
+
+        .product img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .product h3 {
+            font-size: 24px;
+            margin: 10px 0;
+        }
+
+        .product p {
+            font-size: 18px;
+            color: #FF0000;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #000;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer .footer-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        footer .social-links a img {
+            width: 24px;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img src="Pumalogo.png" alt="Puma Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">Kids</a></li>
+                <li><a href="#">Scale</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Main Section -->
+    <main>
+        <section class="hero">
+            <img src="hero.jpg" alt="Puma Sports Gear">
+            <div class="hero-text">
+                <h1>Performance Meets Style</h1>
+                <p>Explore the latest collection of sports gear.</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+        </section>
+        <section class="products">
+            <h2>Featured Products</h2>
+            <div class="products-grid">
+                <div class="product">
+                    <img src="product1.jpg" alt="Running Shoes">
+                    <h3>Puma Running Shoes</h3>
+                    <p>Rs999</p>
+                    <img src="pumashoes1.jpg" alt="Running Shoes">
+                    <h3>Puma Running Shoes</h3>
+                    <p>Rs1999</p>
+                    <img src="pumashoes.jpg" alt="Running Shoes">
+                    <h3>Puma Running Shoes</h3>
+                    <p>Rs1500</p>
+                </div>
+                <div class="product">
+                    <img src="product2.jpg" alt="Sports Jacket">
+                    <h3>Puma Sports Jacket</h3>
+                    <p>Rs2000</p>
+                </div>
+                <div class="product">
+                    <img src="product3.jpg" alt="T-Shirt">
+                    <h3>Puma Sports T-Shirt</h3>
+                    <p>Rs1000</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!--Footer Section-->
+    <footer>
+        <div class="footer-content">
+            <p>&copy;2024 Puma.All Rights Reversed</p>
+            <div class="socail-links">
+                <a href="#"><img src="facbook.jpg" alt="Facbook"></a>
+                <a href="#"><img src="instagram.jpg" alt="Twitter"></a>
+                <a href="#"><img src="twitter.jpg" alt="Instagram"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</htm
